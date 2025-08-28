@@ -1,4 +1,4 @@
-# Node-JS-CICD-Github-To--Jenkins
+# Node-JS-CICD-Github-To-Jenkins
 
 📋 Overview
 A production-ready Node.js weather application with automated CI/CD pipeline from GitHub to Jenkins featuring automatic deployments on code changes.
