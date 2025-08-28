@@ -783,7 +783,7 @@ app.get('/', (req, res) => {
 app.get('/api/weather', async (req, res) => {
   try {
     const { city, lat, lon } = req.query;
-    const API_KEY = process.env.OPENWEATHER_API_KEY || '3bf467d4cead6c183d81560f2b60ad56';
+    const API_KEY = process.env.OPENWEATHER_API_KEY || 'your_api_key';  // your api key
     
     let weatherUrl, forecastUrl, uvUrl;
     
